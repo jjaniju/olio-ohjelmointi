@@ -1,0 +1,2 @@
+teht01/build/
+teht01/*.user
