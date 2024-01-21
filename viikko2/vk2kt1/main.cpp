@@ -1,36 +1,15 @@
-#include "game.h"
-using namespace std;
-
-
-
-
-
-
-class game
-{
-public:
-    ~game();
-    int Game;
-    void play();
-
-
-private:
-
-    int maxNumber;
-    int playersGuess;
-    int randomNumber;
-    int numOfGuesses;
-    void printGameResult();
-
-
+#include "Game.h"
 
     int main()
     {
-        game gameObject (10);
+        Game gameObject (10);
         gameObject.play();
+
+
         return 0;
 
-    };
+    }
+
 
 
 
