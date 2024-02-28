@@ -66,21 +66,21 @@ void MainWindow::timeout()
 
 }
 
-void MainWindow::on_btnsec120_clicked()
+void MainWindow::on_btn2min_clicked()
 {
     gameTime = 120;
     updateDisplayText("2min time selected, press start game");
 }
 
 
-void MainWindow::on_btnmin5_clicked()
+void MainWindow::on_btn5min_clicked()
 {
     gameTime = 300;
     updateDisplayText("5min time selected, press start game");
 }
 
 
-void MainWindow::on_btnstartti_clicked()
+void MainWindow::on_btnStartGame_clicked()
 {
     resetTime();
     gameTimer->start();
@@ -93,7 +93,7 @@ void MainWindow::on_btnstartti_clicked()
 }
 
 
-void MainWindow::on_btnstoppi_clicked()
+void MainWindow::on_btnStopGame_clicked()
 {
     resetTime();
     updateProgressBar();
@@ -101,13 +101,14 @@ void MainWindow::on_btnstoppi_clicked()
     updateDisplayText("Select time to play");
 }
 
-void MainWindow::on_btnvaihto2_clicked()
+void MainWindow::on_btnSwitchP2_clicked()
 {
     currentPlayer = 1;
 }
 
 
-void MainWindow::on_btnvaihto1_clicked()
+void MainWindow::on_btnSwitcP1_clicked()
 {
     currentPlayer = 2;
 }
+

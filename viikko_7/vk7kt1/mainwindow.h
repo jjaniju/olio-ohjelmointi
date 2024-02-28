@@ -33,13 +33,14 @@ public slots:
     void timeout();
 
 private slots:
-    void on_btnsec120_clicked();
-    void on_btnmin5_clicked();
-    void on_btnstartti_clicked();
-    void on_btnstoppi_clicked();
-    void on_btnvaihto1_clicked();
-    void on_btnvaihto2_clicked();
+    void on_btn2min_clicked();
+    void on_btn5min_clicked();
+    void on_btnStartGame_clicked();
+    void on_btnStopGame_clicked();
+    void on_btnSwitchP1_clicked();
+    void on_btnSwitchP2_clicked();
 
+    void on_btnSwitcP1_clicked();
 
 private:
     Ui::MainWindow *ui;
